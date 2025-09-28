@@ -9,7 +9,9 @@ const Events = () => {
   const [filterData, setFilterData] = useState([]);
 
   // ✅ Fetch events from API
-  const { data, loading, error } = useFetch("http://localhost:3000/events");
+  const { data, loading, error } = useFetch(
+    "https://meet-up-4sk3.vercel.app/events"
+  );
   const events = data?.events || [];
 
   // ✅ Initialize filterData when API data loads

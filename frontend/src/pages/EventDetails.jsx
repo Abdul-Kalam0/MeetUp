@@ -9,7 +9,7 @@ const EventDetails = () => {
   const [eventDetails, setEventDetails] = useState(null);
 
   const { data, loading, error } = useFetch(
-    `http://localhost:3000/events/${eventId}`
+    `https://meet-up-4sk3.vercel.app/events/${eventId}`
   );
 
   // ✅ Update state when data loads

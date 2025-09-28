@@ -9,7 +9,9 @@ function App() {
   const [searchValue, setSearchValue] = useState("");
   const [filterData, setFilterData] = useState([]);
 
-  const { data, loading, error } = useFetch("http://localhost:3000/events");
+  const { data, loading, error } = useFetch(
+    "https://meet-up-4sk3.vercel.app/events"
+  );
   const events = data?.events ?? []; // ✅ stable reference
 
   // ✅ Update filtered data only when events change
