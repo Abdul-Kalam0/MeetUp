@@ -8,7 +8,7 @@ import eventRoutes from "./routes/eventRoutes.js";
 //origin takes string, array of string but not object
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://meet-up-kp9d.vercel.app/",
   })
 );
 app.use(express.json());
