@@ -93,7 +93,7 @@ npm install
 - Create a `.env` file:
 ```
 DB_URI=mongodb+srv://your-mongo-uri
-PORT=5000
+PORT=3000
 ```
 
 - Run backend:
@@ -109,7 +109,7 @@ npm run dev
 ```
 
 Frontend will start on: `http://localhost:5173`  
-Backend will run on: `http://localhost:5000`  
+Backend will run on: `http://localhost:3000`  
 
 ---
 
@@ -152,10 +152,16 @@ Backend will run on: `http://localhost:5000`
 ## 📷 Screenshots
 
 ### Home Page
-![Home](https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&auto=format&fit=crop&q=60)
+![Screenshot 2025-09-29 at 10 42 15 PM](https://github.com/user-attachments/assets/8a363671-fd3d-4075-b005-d2295efb3d47)
+
 
 ### Events Page
-![Events](https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&auto=format&fit=crop&q=60)
+![Screenshot 2025-09-29 at 10 43 24 PM](https://github.com/user-attachments/assets/1bfe585d-6a50-48c2-a949-cd0e159893cc)
+
+
+### Event Description
+![Screenshot 2025-09-29 at 10 44 31 PM](https://github.com/user-attachments/assets/395d57d6-8b1e-4bba-928a-61347b294f33)
+
 
 ---
 
