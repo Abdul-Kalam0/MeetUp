@@ -43,10 +43,19 @@ const eventSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    speakers: {
-      type: [String],
-      required: true,
-    },
+    // ✅ Modified speakers schema: now stores name + image
+    speakers: [
+      {
+        name: {
+          type: String,
+          required: true,
+        },
+        image: {
+          type: String,
+          default: "", // optional
+        },
+      },
+    ],
     image: {
       type: String,
     },
