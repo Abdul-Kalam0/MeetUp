@@ -27,7 +27,7 @@ const EventDetails = () => {
     <>
       <Header />
       <main className="container my-4">
-        <div className="d-flex gap-4 flex-wrap">
+        <div className="d-flex gap-4 justify-content-between">
           {/* Left */}
           <div className="flex-grow-1">
             <h1>{eventDetails.title}</h1>
